@@ -1,13 +1,13 @@
 module.exports = {
   title: 'Kristal Landscape and Garden',
   tagline: 'Bercocok Tanam',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://kristal.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'img/logo.svg', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Kristal Landscape and Garden',
