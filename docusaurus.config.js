@@ -1,19 +1,19 @@
 module.exports = {
-  title: 'Kristal Landscape and Garden',
-  tagline: 'Bercocok Tanam',
-  url: 'https://kristal.netlify.app/',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/logo.svg',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'kristal-landscape-and-garden', // Usually your repo name.
+  title: "Kristal Landscape and Garden",
+  tagline: "Bercocok Tanam",
+  url: "https://kristal.netlify.app/",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/logo.svg",
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "kristal-landscape-and-garden", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Kristal Landscape and Garden',
+      title: "Kristal Landscape and Garden",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "My Site Logo",
+        src: "img/logo.svg",
       },
       items: [
         // {
@@ -31,7 +31,7 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         // {
         //   title: 'Docs',
@@ -63,41 +63,45 @@ module.exports = {
         //     },
         //   ],
         // },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: 'blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/facebook/docusaurus',
-        //     },
-        //   ],
-        // },
+        {
+          title: "More",
+          items: [
+            {
+              label: "Instagram",
+              to: "https://www.instagram.com/kristallandscape/",
+            },
+            {
+              label: "Email",
+              href: "mailto: amilinsyihab@gmail.com",
+            },
+            {
+              label: "WhatsApp",
+              href: "https://wa.me/6282244638168",
+            },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Kristal Landscape and Garden.`,
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
